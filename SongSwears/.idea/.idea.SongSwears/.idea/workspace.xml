@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="963e491f-0c87-4c33-93e7-804a81ab46e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SongSwears/profanities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SongSwears/Censor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SongSwears/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SongSwears/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SongSwears/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SongSwears/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SongSwears/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SongSwears/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SongSwears/SongAnalysis.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SongSwears/Song.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SongSwears/SongSwears.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SongSwears/SongSwears.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SongSwears/obj/Debug/SongSwears.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SongSwears/obj/Debug/SongSwears.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,21 +17,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SongSwears/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
-                <marker date="1558702642308" expanded="false" signature="6:170" ph="..." />
-                <marker date="1558702642308" expanded="true" signature="192:1423" ph="{...}" />
-                <marker date="1558702642308" expanded="true" signature="212:509" ph="{...}" />
-                <marker date="1558702642308" expanded="true" signature="258:503" ph="{...}" />
-                <marker date="1558702642308" expanded="true" signature="527:1421" ph="{...}" />
-                <marker date="1558702642308" expanded="true" signature="584:983" ph="{...}" />
-                <marker date="1558702642308" expanded="true" signature="1024:1195" ph="{...}" />
-                <marker date="1558702642308" expanded="true" signature="1077:1158" ph="{...}" />
-                <marker date="1558702642308" expanded="true" signature="1268:1415" ph="{...}" />
+                <marker date="1559306436297" expanded="false" signature="6:115" ph="..." />
+                <marker date="1559306436297" expanded="true" signature="138:677" ph="{...}" />
+                <marker date="1559306436297" expanded="true" signature="158:384" ph="{...}" />
+                <marker date="1559306436297" expanded="true" signature="200:378" ph="{...}" />
+                <marker date="1559306436297" expanded="true" signature="414:675" ph="{...}" />
+                <marker date="1559306436297" expanded="true" signature="536:669" ph="{...}" />
+                <marker date="1559306436297" expanded="true" signature="581:659" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SongSwears/Censor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <marker date="1559306261914" expanded="false" signature="6:54" ph="..." />
+                <marker date="1559306261914" expanded="true" signature="77:958" ph="{...}" />
+                <marker date="1559306261914" expanded="true" signature="96:956" ph="{...}" />
+                <marker date="1559306261914" expanded="true" signature="160:550" ph="{...}" />
+                <marker date="1559306261914" expanded="true" signature="592:742" ph="{...}" />
+                <marker date="1559306261914" expanded="true" signature="637:705" ph="{...}" />
+                <marker date="1559306261914" expanded="true" signature="808:950" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,16 +80,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SongSwears/SongAnalysis.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SongSwears/Song.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="71" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="71" />
+            <state relative-caret-position="271">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <marker date="1558530017606" expanded="false" signature="6:54" ph="..." />
-                <marker date="1558530017606" expanded="true" signature="76:525" ph="{...}" />
-                <marker date="1558530017606" expanded="true" signature="110:523" ph="{...}" />
-                <marker date="1558530017606" expanded="true" signature="175:517" ph="{...}" />
+                <marker date="1559307008384" expanded="false" signature="6:92" ph="..." />
+                <marker date="1559307008384" expanded="true" signature="115:843" ph="{...}" />
+                <marker date="1559307008384" expanded="true" signature="132:841" ph="{...}" />
+                <marker date="1559307008384" expanded="true" signature="274:643" ph="{...}" />
+                <marker date="1559307008384" expanded="true" signature="694:835" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,22 +102,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/SongSwears/SongAnalysis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SongSwears/Song.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SongSwears/LyricsovhResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SongSwears/Censor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SongSwears/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/SongSwears/SongAnalysis.cs" />
+        <option value="$PROJECT_DIR$/SongSwears/Censor.cs" />
         <option value="$PROJECT_DIR$/SongSwears/Program.cs" />
+        <option value="$PROJECT_DIR$/SongSwears/Song.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="126" />
-    <option name="width" value="1440" />
-    <option name="height" value="765" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -108,26 +129,6 @@
     </navigator>
     <panes>
       <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SongSwears" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SongSwears" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SongSwears" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SongSwears" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SongSwears" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
@@ -186,11 +187,12 @@
       <updated>1558692033153</updated>
       <workItem from="1558692034502" duration="22000" />
       <workItem from="1558698235365" duration="6004000" />
+      <workItem from="1559302915745" duration="4440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6026000" />
+    <option name="totallyTimeSpent" value="10466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,15 +205,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1611336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03562753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32871974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18544194" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.121107265" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5034602" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -223,6 +225,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32871974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -237,6 +240,16 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../profanities.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SongSwears/profanities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SongSwears/LyricsovhResponse.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -248,43 +261,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SongSwears/SongAnalysis.cs">
+    <entry file="file://$PROJECT_DIR$/SongSwears/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="71" />
+        <state relative-caret-position="220">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
-            <marker date="1558530017606" expanded="false" signature="6:54" ph="..." />
-            <marker date="1558530017606" expanded="true" signature="76:525" ph="{...}" />
-            <marker date="1558530017606" expanded="true" signature="110:523" ph="{...}" />
-            <marker date="1558530017606" expanded="true" signature="175:517" ph="{...}" />
+            <marker date="1559306436297" expanded="false" signature="6:115" ph="..." />
+            <marker date="1559306436297" expanded="true" signature="138:677" ph="{...}" />
+            <marker date="1559306436297" expanded="true" signature="158:384" ph="{...}" />
+            <marker date="1559306436297" expanded="true" signature="200:378" ph="{...}" />
+            <marker date="1559306436297" expanded="true" signature="414:675" ph="{...}" />
+            <marker date="1559306436297" expanded="true" signature="536:669" ph="{...}" />
+            <marker date="1559306436297" expanded="true" signature="581:659" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SongSwears/profanities.txt">
+    <entry file="file://$PROJECT_DIR$/SongSwears/Censor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        <state relative-caret-position="232">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <marker date="1559306261914" expanded="false" signature="6:54" ph="..." />
+            <marker date="1559306261914" expanded="true" signature="77:958" ph="{...}" />
+            <marker date="1559306261914" expanded="true" signature="96:956" ph="{...}" />
+            <marker date="1559306261914" expanded="true" signature="160:550" ph="{...}" />
+            <marker date="1559306261914" expanded="true" signature="592:742" ph="{...}" />
+            <marker date="1559306261914" expanded="true" signature="637:705" ph="{...}" />
+            <marker date="1559306261914" expanded="true" signature="808:950" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../profanities.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SongSwears/Program.cs">
+    <entry file="file://$PROJECT_DIR$/SongSwears/Song.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="271">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <marker date="1558702642308" expanded="false" signature="6:170" ph="..." />
-            <marker date="1558702642308" expanded="true" signature="192:1423" ph="{...}" />
-            <marker date="1558702642308" expanded="true" signature="212:509" ph="{...}" />
-            <marker date="1558702642308" expanded="true" signature="258:503" ph="{...}" />
-            <marker date="1558702642308" expanded="true" signature="527:1421" ph="{...}" />
-            <marker date="1558702642308" expanded="true" signature="584:983" ph="{...}" />
-            <marker date="1558702642308" expanded="true" signature="1024:1195" ph="{...}" />
-            <marker date="1558702642308" expanded="true" signature="1077:1158" ph="{...}" />
-            <marker date="1558702642308" expanded="true" signature="1268:1415" ph="{...}" />
+            <marker date="1559307008384" expanded="false" signature="6:92" ph="..." />
+            <marker date="1559307008384" expanded="true" signature="115:843" ph="{...}" />
+            <marker date="1559307008384" expanded="true" signature="132:841" ph="{...}" />
+            <marker date="1559307008384" expanded="true" signature="274:643" ph="{...}" />
+            <marker date="1559307008384" expanded="true" signature="694:835" ph="{...}" />
           </folding>
         </state>
       </provider>
